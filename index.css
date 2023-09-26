@@ -1,0 +1,56 @@
+/*CSS Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+
+	background-image: 
+
+	linear-gradient(
+
+		rgba(0, 0, 0, 0.55),
+		rgba(0, 0, 0, 0.55)
+		),
+
+	url(https://i.pinimg.com/originals/83/be/32/83be325e2d434d410339a95622877f70.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	
+}
+
+img {
+
+}
+
+.fab {
+	font-size: 4vh;
+	
+}
+
+.proj {
+	transition: transform .5s;
+}
+.proj:hover {
+  transform: scale(1.3);
+}
+
+.toolbox {
+	background-color: rgba(250,250,250,.50);
+}
+
+#gmap_canvas {
+	height: 80vh;
+	width: 100%;
+}

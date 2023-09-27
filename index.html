@@ -19,7 +19,7 @@
 </head>
 <body>
 	<!-- Navbar -->
-	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-secondary mb-3">
 	  <a class="navbar-brand d-md-none" href="#">Christopher</a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
@@ -43,33 +43,29 @@
 	</nav>
 
 	<div>
-		<div class="row">
-			<div class="offset-md-2 col-md-10 d-flex flex-column justify-content-center align-items-center py-4" id="landing">
-				<div class="mt-5 pt-5 text-white">
-					<h1 class="text-center mt-5 pt-5 display-1 mb-0">Christopher Nova</h1>
-					<h4 class="text-center display-6">Full Stack Web Developer</h4>
-					<div class="row mt-3 justify-content-center">
-						<div class="col-6 d-flex justify-content-around">
-							<i class="fab fa-facebook mx-3 mx-md-0"></i>
-							<i class="fab fa-gitlab mx-3 mx-md-0"></i>
-							<i class="fab fa-linkedin mx-3 mx-md-0"></i>
-							<i class="fab fa-instagram mx-3 mx-md-0"></i>
-						</div>
-					</div>
+		<div class="container">
+			<div class="row offset-md-1 col-md-10 d-flex flex-column justify-content-center align-items-center" id="landing">
+				<div class="col-md-10 mt-8 pt-5 d-flex justify-content-center ">
+					<img src="images/logo-chris4.jpg" class="img-fluid rounded-circle border border-gray align-items-center">
+				</div>
+				<div class="mt-2 pt-2 text-white">
+					<h1 class="text-center mt-2 pt-2 display-1 mb-0">Christopher Nova</h1>
+					<h2 class="text-center display-5">Full Stack Web Developer</h2>
+					<h5 class="text-center text-justify display-6 mt-4 pt-4">Meet Chris, a remarkable individual who embarked on a transformative journey from an entirely different career path into the exciting world of programming. As he had to start from scratch and learn the fundamentals of programming languages, algorithms, and data structures. However, his dedication and commitment knew no bounds. He attended coding bootcamps, devoured countless online courses, and sought guidance from mentors in the field.</h5>
 				</div>
 			</div>
-			<div class="offset-md-2 col-md-10 d-flex flex-column justify-content-center align-items-center py-4" id="projects">
+			<div class="offset-md-1 col-md-10 mb-5 py-2 d-flex flex-column justify-content-center align-items-center" id="projects">
 				<h1 class="text-center mt-5 mb-2 text-white">Projects</h1>
-				<div class="row mt-2 pt-3 px-4 justify-content-center">
+				<div class="row d-flex mt-2 pt-3 justify-content-center ">
 					<div class="col-md-3 mb-3 mb-md-0 px-1" data-toggle="modal" data-target="#modal1">
 						<img src="images/logo-front-end.png" class="img-fluid proj">
 						<!-- Modal -->
 						<div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
 						  <div class="modal-dialog">
 						    <div class="modal-content">
-						      <div class="modal-header">
+						      <div class="modal-header row">
 						        <h5 class="modal-title" id="exampleModalLabel">WEB-PAGE DISIGNING</h5>
-						        <h3 class="modal-title" id="exampleModalLabel">FRONT-END PROGRAMMING</h3>
+						        <h5 class="modal-title" id="exampleModalLabel">FRONT-END PROGRAMMING</h5>
 						      </div>
 						      <div class="modal-body">
 						        <img src="images/logo-front-end.png" class="img-fluid">
@@ -78,7 +74,9 @@
 						        </p>
 						      </div>
 						      <div class="modal-footer d-flex justify-content-center">
-						        <button type="button" class="btn btn-primary">Go To Page</button>
+						      	<a href="https://www.coursera.org/articles/front-end-developer" target="_blank"> <button type="button" class="btn btn-primary">Go To Page</button>
+						      	</a>	
+						        
 						        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 						      </div>
 						    </div>
@@ -86,22 +84,24 @@
 						</div>
 					</div>
 					<div class="col-md-3 mb-3 mb-md-0 px-1" data-toggle="modal" data-target="#modal2">
-						<img src="https://images.pexels.com/photos/2004161/pexels-photo-2004161.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" class="img-fluid proj">
+						<img src="images/logo-back-end.png" class="img-fluid proj">
 						<!-- Modal -->
 						<div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal2Label" aria-hidden="true">
 						  <div class="modal-dialog">
 						    <div class="modal-content">
-						      <div class="modal-header">
-						        <h5 class="modal-title" id="exampleModalLabel">Coding Best Practices</h5>
+						      <div class="modal-header row">
+						        <h5 class="modal-title" id="exampleModalLabel">E-COMMERCE</h5>
+						        <h5>BACK-END PROGRAMMING</h5>
 						      </div>
 						      <div class="modal-body">
-						      	<img src="https://images.pexels.com/photos/2004161/pexels-photo-2004161.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" class="img-fluid">
+						      	<img src="images/logo-back-end.png" class="img-fluid proj">
 						        <p class="text-justify mt-3">
-						        	Think of coding standards as a set of rules, techniques, and best practices to create cleaner, more readable, more efficient code with minimal errors. They offer a uniform format by which software engineers can use to build sophisticated and highly functional code.
+						        	Back-end programming refers to the development of the server-side logic and functionality that powers web applications and software. It is responsible for handling data storage, user authentication, processing requests from the client-side, and ensuring the overall functionality and performance of a web or software application.
 						        </p>
 						      </div>
 						      <div class="modal-footer d-flex justify-content-center">
-						        <button type="button" class="btn btn-primary">Go To Page</button>
+						        <a href="https://www.coursera.org/articles/back-end-developer" target="_blank"> <button type="button" class="btn btn-primary">Go To Page</button>
+						      	</a>
 						        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 						      </div>
 						    </div>
@@ -109,47 +109,24 @@
 						</div>
 					</div>
 					<div class="col-md-3 mb-3 mb-md-0 px-1" data-toggle="modal" data-target="#modal3">
-						<img src="https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="img-fluid proj">
+						<img src="images/logo-full-stack.png" class="img-fluid proj">
 						<!-- Modal -->
 						<div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="modal3Label" aria-hidden="true">
 						  <div class="modal-dialog">
 						    <div class="modal-content">
-						      <div class="modal-header">
-						        <h5 class="modal-title" id="exampleModalLabel">Search Engine Optimization</h5>
+						      <div class="modal-header row">
+						        <h5 class="modal-title" id="exampleModalLabel">E-COMMERCE API</h5>
+						        <h5>FULL-STACK</h5>
 						      </div>
 						      <div class="modal-body">
-						      	<img src="https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="img-fluid">
+						      	<img src="images/logo-full-stack.png" class="img-fluid proj">
 						        <p class="text-justify mt-3">
-						        	SEO stands for “search engine optimization.” In simple terms, it means the process of improving your site to increase its visibility when people search for products or services related to your business in Google, Bing, and other search engines.
+						        	A full-stack developer is a professional who has expertise in both front-end and back-end web development, allowing them to work on all aspects of a web application or software project. This term "full-stack" refers to their ability to handle the complete stack of technologies and components required to build and maintain a web or software application.
 						        </p>
 						      </div>
 						      <div class="modal-footer d-flex justify-content-center">
-						        <button type="button" class="btn btn-primary">Go To Page</button>
-						        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-						      </div>
-						    </div>
-						  </div>
-						</div>
-					</div>
-				</div>
-				<div class="row mb-5 py-2 px-4 justify-content-center">
-					<div class="col-md-3 mb-3 mb-md-0 px-1" data-toggle="modal" data-target="#modal4">
-						<img src="https://images.pexels.com/photos/276271/pexels-photo-276271.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="img-fluid proj">
-						<!-- modal -->
-						<div class="modal fade" id="modal4" tabindex="-1" aria-labelledby="modal4Label" aria-hidden="true">
-						  <div class="modal-dialog">
-						    <div class="modal-content">
-						      <div class="modal-header">
-						        <h5 class="modal-title" id="exampleModalLabel">Arachnids</h5>
-						      </div>
-						      <div class="modal-body">
-						      	<img src="https://images.pexels.com/photos/276271/pexels-photo-276271.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="img-fluid">
-						        <p class="text-justify mt-3">
-						        	Arachnids are spiders , harvestmen , mites and ticks , and their relatives like scorpions that don't live in Michigan. All arachnids have eight legs, and unlike insects, they don't have antennae.
-						        </p>
-						      </div>
-						      <div class="modal-footer d-flex justify-content-center">
-						        <button type="button" class="btn btn-primary">Go To Gallery</button>
+						        <a href="https://www.coursera.org/articles/full-stack-developer" target="_blank"> <button type="button" class="btn btn-primary">Go To Page</button>
+						      	</a>
 						        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 						      </div>
 						    </div>
@@ -158,26 +135,26 @@
 					</div>
 				</div>
 			</div>
-			<div class="offset-md-2 col-md-10 d-flex flex-column justify-content-center align-items-center" id="tools">
+			<div class="offset-md-1 col-md-10 d-flex flex-column justify-content-center align-items-center" id="tools">
 				<div class="row d-none d-md-flex justify-content-center pb-5">
 					<h2 class="text-center mt-5 mb-2 text-white">Tools and Languages</h2>
 					<p class="text-center  text-white">
 						I have an extensive knowledge of the following technologies and tools in my web development process.
 					</p>
-					<div class="col-md-3 col-lg-2 mx-3 my-1 toolbox rounded">
+					<div class="col-md-3 col-lg-2 mx-3 my-1 toolbox rounded ">
 					    <h3 class="my-md-3 text-center">Static</h3>
 					    <div class="row justify-content-center">
 					        <div class="col-3 col-md-6" >
-					            <img src="./images/html5.png" class="img-fluid">
+					            <img src="images/logo-html5.png" class="img-fluid">
 					        </div>
 					        <div class="col-3 col-md-6">
-					            <img src="./images/css3.png" class="img-fluid">
+					            <img src="images/logo-css3.png" class="img-fluid">
 					        </div>
 					        <div class="col-3 col-md-6">
-					            <img src="./images/bs.png" class="img-fluid">
+					            <img src="images/logo-bootstrap.png" class="img-fluid">
 					        </div>
 					        <div class="col-3 col-md-6">
-					            <img src="./images/js.png" class="img-fluid">
+					            <img src="images/logo-javascript.png" class="img-fluid">
 					        </div>
 					    </div>
 					</div>
@@ -185,16 +162,16 @@
 					    <h3 class="my-md-3 text-center">Dynamic</h3>
 					    <div class="row justify-content-center">
 					        <div class="col-3 col-md-6">
-					            <img src="./images/mongodb.png" class="img-fluid">
+					            <img src="images/logo-mongodb.png" class="img-fluid">
 					        </div>
 					        <div class="col-3 col-md-6">
-					            <img src="./images/ejs.png" class="img-fluid">
+					            <img src="images/logo-expressjs.png" class="img-fluid">
 					        </div>
 					        <div class="col-3 col-md-6">
-					            <img src="./images/react.png" class="img-fluid">
+					            <img src="images/logo-react.png" class="img-fluid">
 					        </div>
 					        <div class="col-3 col-md-6">
-					            <img src="./images/nodejs.png" class="img-fluid">
+					            <img src="images/logo-nodejs.png" class="img-fluid">
 					        </div>
 					    </div>
 					</div>
@@ -203,73 +180,81 @@
 					    <div class="row justify-content-center">
 
 					        <div class="col-3 col-md-6">
-					            <img src="./images/heroku.png" class="img-fluid">
+					            <img src="images/logo-heroku.png" class="img-fluid">
 					        </div>
 					        <div class="col-3 col-md-6">
-					            <img src="./images/git.png" class="img-fluid">
+					            <img src="images/logo-git.png" class="img-fluid">
 					        </div>
 					        <div class="col-3 col-md-6">
-					            <img src="./images/postman.png" class="img-fluid">
+					            <img src="images/logo-postman.png" class="img-fluid">
 					        </div>
 					        <div class="col-3 col-md-6">
-					            <img src="./images/sublime-text-3.png" class="img-fluid">
+					            <img src="images/logo-sublime-text-3.png" class="img-fluid">
 					        </div>
 					    </div>
 					</div>
 				</div>
 				<!-- small screen tools -->
-				<div class="row d-md-none flex-column align-items-center">
+				<div class="offset-md-1 col-md-10 d-md-none d-flex flex-column justify-content-center justify-content-center align-items-center">
 					<div class="col-10 p-2 toolbox rounded">
 						<h2 class="text-center">Tools and Tech</h2>
 						<div class="row">
 							<div class="col-4">
-							    <img src="./images/html5.png" class="img-fluid">
+							    <img src="images/logo-html5.png" class="img-fluid">
 							</div>
 							<div class="col-4">
-							    <img src="./images/css3.png" class="img-fluid">
+							    <img src="images/logo-css3.png" class="img-fluid">
 							</div>
 							<div class="col-4">
-							    <img src="./images/bs.png" class="img-fluid">
+							    <img src="images/logo-bootstrap.png" class="img-fluid">
 							</div>
 							<div class="col-4">
-							    <img src="./images/js.png" class="img-fluid">
+							    <img src="images/logo-javascript.png" class="img-fluid">
 							</div>
 							<div class="col-4">
-							    <img src="./images/mongodb.png" class="img-fluid">
+							    <img src="images/logo-mongodb.png" class="img-fluid">
 							</div>
 							<div class="col-4">
-							    <img src="./images/ejs.png" class="img-fluid">
+							    <img src="images/logo-expressjs.png" class="img-fluid">
 							</div>
 							<div class="col-4">
-							    <img src="./images/react.png" class="img-fluid">
+							    <img src="images/logo-react.png" class="img-fluid">
 							</div>
 							<div class="col-4">
-							    <img src="./images/nodejs.png" class="img-fluid">
+							    <img src="images/logo-nodejs.png" class="img-fluid">
 							</div>
 							<div class="col-4">
-							    <img src="./images/heroku.png" class="img-fluid">
+							    <img src="images/logo-heroku.png" class="img-fluid">
 							</div>
 							<div class="col-4">
-							    <img src="./images/git.png" class="img-fluid">
+							    <img src="images/logo-git.png" class="img-fluid">
 							</div>
 							<div class="col-4">
-							    <img src="./images/postman.png" class="img-fluid">
+							    <img src="images/logo-postman.png" class="img-fluid">
 							</div>
 							<div class="col-4">
-							    <img src="./images/sublime-text-3.png" class="img-fluid">
+							    <img src="images/logo-sublime-text-3.png" class="img-fluid">
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="offset-md-2 col-md-10 d-flex flex-column justify-content-center" id="contact">
+			<div class="offset-md-1 col-md-10 d-flex flex-column justify-content-center mt-5 mb-4" id="contact">
 				<h2 class="text-center text-white mt-5 mb-4">Contact</h2>
 				<div class="row justify-content-center mx-auto">
 					<div class="col-12 d-flex text-white">
-						<i class="fab fa-facebook mx-3"></i>
-						<i class="fab fa-gitlab mx-3"></i>
-						<i class="fab fa-linkedin mx-3"></i>
-						<i class="fab fa-instagram mx-3"></i>
+						<a href="https://web.facebook.com/" target="_blank"> 
+							<i class="fab fa-facebook mx-3"></i>
+						</a>
+						<a href="https://github.com/" target="_blank">
+							<i class="fab fa-gitlab mx-3"></i>
+						</a>
+						<a href="https://www.linkedin.com/" target="_blank">
+							<i class="fab fa-linkedin mx-3"></i>
+						</a>
+						<a href="https://www.instagram.com/?hl=en" target="_blank">
+							<i class="fab fa-instagram mx-3"></i>
+						</a>
 					</div>
 				</div>
 				<div class="row px-md-5">

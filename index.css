@@ -30,9 +30,24 @@ body {
 	
 }
 
-img {
 
+#tools {
+
+	height: 50vh;
+	background-image: 
+
+	linear-gradient(
+
+		rgba(0, 0, 0, 0.10),
+		rgba(0, 0, 0, 0.65)
+		),
+
+	url(https://images.newscientist.com/wp-content/uploads/2019/07/04110119/f77f3m.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
+
 
 .fab {
 	font-size: 4vh;
